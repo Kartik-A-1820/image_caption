@@ -45,6 +45,10 @@ This repository hosts a Django-based web application for generating captions for
 
 # INSTALLATION
 
+### Step 0: Install Conda
+
+##### refer: https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html
+
 ### Step 1: Clone the Repository
 
 Use the following commands to clone the repository and navigate into the project directory:
