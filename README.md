@@ -29,7 +29,7 @@ This repository hosts a Django-based web application for generating captions for
   - Bidirectional and stacked LSTMs for sequence processing.
   - Fully connected layers for word predictions.
 - Output:
-  - Vocabulary size (`vocab_size`) softmax for word predictions.
+  - Vocabulary size (`18062`) softmax for word predictions.
 
 ## Technologies Used
 - **Backend**: Django
