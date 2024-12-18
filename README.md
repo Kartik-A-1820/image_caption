@@ -63,7 +63,9 @@ pip install -r requirements.txt
 ```
 
 ### Step 3: Download Models
+
 ##### Download and replace the models folder: https://drive.google.com/drive/folders/1-yWfX6GavDFjzfemayKq24ug5dM1J-N3?usp=sharing
+
 
 ### Step 4: Configure the Database
 ```bash
