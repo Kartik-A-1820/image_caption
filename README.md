@@ -52,3 +52,31 @@ Use the following commands to clone the repository and navigate into the project
 ```bash
 git clone https://github.com/Kartik-A-1820/image_caption.git
 cd image_caption
+```
+
+### Step 2: Create a Virtual Environment and Install Dependencies
+
+```bash
+conda create -n image_caption_env python=3.10
+conda activate image_caption_env
+pip install -r requirements.txt
+```
+
+### Step 3: Set Up Git LFS
+```bash
+git lfs install
+git lfs pull
+```
+
+### Step 4: Configure the Database
+```bash
+python manage.py makemigrations
+python manage.py migrate
+```
+
+### Step 5: Start the Development Server
+```bash
+python manage.py runserver
+```
+
+#### Access the application in your browser at http://127.0.0.1:8000.
