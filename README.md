@@ -13,7 +13,7 @@ This repository hosts a Django-based web application for generating captions for
   - Includes an **Attention Mechanism** for aligning image features with text.
   - Uses **Bidirectional LSTM** for understanding caption sequences.
   - Incorporates **Dropout** and **Batch Normalization** to improve model generalization.
-- **Large File Management**: Supports Git LFS for handling model files (`.h5`, `.pkl`).
+- **Large File Management**: Google Drive for model files (`.h5`).
 - **Frontend Enhancements**:
   - Upload preview and prediction loading spinner.
   - Buttons disabled during predictions for better UX.
