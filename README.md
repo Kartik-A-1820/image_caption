@@ -51,4 +51,4 @@ Use the following commands to clone the repository and navigate into the project
 
 ```bash
 git clone https://github.com/Kartik-A-1820/image_caption.git
-cd image_caption ```
+cd image_caption
