@@ -20,8 +20,8 @@ This repository hosts a Django-based web application for generating captions for
 
 ## Model Architecture
 - Input:
-  - Pre-extracted image features (1920-D vector).
-  - Tokenized captions (max length: `max_length`).
+  - Pre-extracted image features (1920-D vector from DenseNet201 Model).
+  - Tokenized captions (max length: `74`).
 - Architecture Highlights:
   - Dense layers for image feature processing.
   - Attention mechanism for context alignment.
@@ -80,3 +80,10 @@ python manage.py runserver
 ```
 
 #### Access the application in your browser at http://127.0.0.1:8000.
+
+
+
+# Screen Shot
+![App Screenshot](images/upload.png)
+![App Screenshot](images/predicting.png)
+![App Screenshot](images/result.png)
