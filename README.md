@@ -1,4 +1,4 @@
-# image_caption
+# IMAGE CAPTION MODEL
 LSTM and CNN based Image Caption Prediction System (Trained on Flickr30K)
 
 # Image Caption Prediction System
@@ -42,3 +42,13 @@ This repository hosts a Django-based web application for generating captions for
 - TensorFlow 2.16.1
 - Git LFS for model file storage
 
+
+# INSTALLATION
+
+### Step 1: Clone the Repository
+
+Use the following commands to clone the repository and navigate into the project directory:
+
+```bash
+git clone https://github.com/Kartik-A-1820/image_caption.git
+cd image_caption ```
