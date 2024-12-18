@@ -1,2 +1,44 @@
 # image_caption
 LSTM and CNN based Image Caption Prediction System (Trained on Flickr30K)
+
+# Image Caption Prediction System
+
+This repository hosts a Django-based web application for generating captions for uploaded images. The project includes a deep learning model for image captioning, built using TensorFlow and Keras, and provides a responsive user interface for easy interaction.
+
+## Features
+- **Django Framework**: A robust backend for handling image uploads, predictions, and result display.
+- **Custom Image Captioning Model**:
+  - Processes image features and tokenized captions.
+  - Employs **DenseNet** for pre-extracted image features.
+  - Includes an **Attention Mechanism** for aligning image features with text.
+  - Uses **Bidirectional LSTM** for understanding caption sequences.
+  - Incorporates **Dropout** and **Batch Normalization** to improve model generalization.
+- **Large File Management**: Supports Git LFS for handling model files (`.h5`, `.pkl`).
+- **Frontend Enhancements**:
+  - Upload preview and prediction loading spinner.
+  - Buttons disabled during predictions for better UX.
+
+## Model Architecture
+- Input:
+  - Pre-extracted image features (1920-D vector).
+  - Tokenized captions (max length: `max_length`).
+- Architecture Highlights:
+  - Dense layers for image feature processing.
+  - Attention mechanism for context alignment.
+  - Bidirectional and stacked LSTMs for sequence processing.
+  - Fully connected layers for word predictions.
+- Output:
+  - Vocabulary size (`vocab_size`) softmax for word predictions.
+
+## Technologies Used
+- **Backend**: Django
+- **Deep Learning**: TensorFlow, Keras
+- **Frontend**: HTML, CSS, JavaScript
+- **Large File Management**: Git LFS
+
+## Requirements
+- Python 3.10
+- Django 5.1
+- TensorFlow 2.16.1
+- Git LFS for model file storage
+
