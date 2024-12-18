@@ -35,7 +35,6 @@ This repository hosts a Django-based web application for generating captions for
 - **Backend**: Django
 - **Deep Learning**: TensorFlow, Keras
 - **Frontend**: HTML, CSS, JavaScript
-- **Large File Management**: Git LFS
 
 ## Requirements
 - Python 3.10
