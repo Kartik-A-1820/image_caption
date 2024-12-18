@@ -19,6 +19,7 @@ This repository hosts a Django-based web application for generating captions for
   - Buttons disabled during predictions for better UX.
 
 ## Model Architecture
+![App Screenshot](images/model.png)
 - Input:
   - Pre-extracted image features (1920-D vector from DenseNet201 Model).
   - Tokenized captions (max length: `74`).
